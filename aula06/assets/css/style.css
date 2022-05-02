@@ -1,0 +1,283 @@
+* {
+    margin: 0 auto;
+}
+
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e2e2e2;
+}
+
+.row {
+    clear: both;
+    overflow: auto;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    color: rgba(169, 169, 169, 0.89);
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+td{
+    font-size: 14px;
+    text-align: center;
+}
+
+h1{
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 14px;
+
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #162E58;
+    color: #fff;
+    overflow: auto;
+}
+
+.menu{
+    clear: both;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: absolute;
+    width: 83%;
+}
+
+.menuItem{
+    float: left;
+    width: 14.5%;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-top: 45px;
+}
+
+#linkBorder{
+    float: left;
+    width: 14.5%;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-top: 45px;
+    border-bottom: solid 3px white;
+}
+
+/* Grupos*/
+.column{
+    background-color: rgba(0, 81, 255, 0.774);
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 18.4%;
+    top: 25.1%;
+    
+}
+
+.columnTwo{
+    background-color: rgba(0, 81, 255, 0.774);
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 18.4%;
+    top: 28.6%;
+}
+
+.columnThree{
+    background-color: rgba(255, 153, 0, 0.932);
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 18.4%;
+    top: 32.1%;
+}
+
+.columnFour{
+    background-color: rgba(0, 81, 255, 0.774);
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 18.4%;
+    top: 48.7%;
+}
+
+.columnFive{
+    background-color: rgba(0, 81, 255, 0.774);
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 18.4%;
+    top: 52.2%;
+}
+
+.columnSix{
+    background-color: rgba(255, 153, 0, 0.932);
+    width: 4px;
+    height: 32px;
+    position: absolute;
+    left: 18.4%;
+    top: 55.7%;
+}
+
+.ranking {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tableRanking{
+    width: 100%;
+    padding: 16px;
+    margin: 0;
+}
+
+.thClubName{
+    width: 50%;
+    text-align: left;
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+}
+
+.up{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+}
+
+.tLast{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    width: 12.5%;
+    text-align: center;
+}
+
+.tdPosition{
+    width: 3%;
+}
+
+.tdImgClub{
+    width: 5%;
+}
+
+.tdClub{
+    width: 42%;
+    text-align: left;
+}
+
+.imgClub{
+    width: 20px;
+    height: 20px;
+}
+
+.ultimasCinco{
+    width: 11%;
+    text-align: center;
+
+}
+
+.gameWin{
+    overflow: auto;
+    background-image: url("../img/img/v.svg");
+    background-repeat: no-repeat;
+    min-height: 16px; /* não mexer*/
+    min-width: 16px; /* não mexer*/
+    float: right;
+    margin-top: 5%; /* não mexer*/
+}
+
+.gameLoss{
+    overflow: auto;
+    background-image: url("../img/img/d.svg");
+    background-repeat: no-repeat;
+    min-height: 16px;/* não mexer*/
+    min-width: 16px; /* não mexer*/
+    float: right;
+    margin-top: 5%; /* não mexer*/
+}
+
+.gameDraw{
+    background-image: url("../img/img/e.svg");
+    background-repeat: no-repeat;
+    min-height: 16px; /* não mexer*/
+    min-width: 16px; /* não mexer*/
+    float: right;
+    margin-top: 5%; /* não mexer*/
+}
+
+/*Goleadores */
+.goals{
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tableGoals{
+    width: 100%;
+}
+
+.tdPlayerName{
+    text-align: left;
+    width: 90%;
+}
+
+.spanClubName{
+    font-size: 12px;
+    color: rgba(169, 169, 169, 0.89);
+}
+
+/*Jogos*/
+.matches{
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 0;
+}
+
+.tableAllMatches{
+    width: 100%;
+    border-bottom: 0;
+}
+
+
+.tableMatch, .tdClubName{
+    width: 80%;
+    border-bottom: 0;
+}
+
+
+.tdTotal{
+    font-size: 14px;
+    color: rgba(169, 169, 169, 0.89);
+    text-align: left;
+}
+
+.tableAllMatches td, th , .tableMatch td, th{
+    border-bottom: 0;
+}
+
+.tdTime{
+    font-size: 10px;
+    border-bottom: 0px;
+}
